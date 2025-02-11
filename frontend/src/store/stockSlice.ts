@@ -1,14 +1,14 @@
-import { createSlice, PayloadAction, createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+// import axios from "axios";
 import { fetchStocks,fetchStockData } from "../api/stockAPI";
 
 // Define the structure for stock time series data
-interface TimeSeriesEntry {
-  price: number;
-  change: number;
-  change_percent: number;
-  volume: number;
-}
+// interface TimeSeriesEntry {
+//   price: number;
+//   change: number;
+//   change_percent: number;
+//   volume: number;
+// }
 
 // Define the structure for stock data
 interface timestamps{

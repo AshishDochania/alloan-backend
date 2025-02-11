@@ -5,12 +5,12 @@ import Home from "./pages/Home";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "./pages/firebaseConfig";
 
-const ProtectedRoute: React.FC<{ children: JSX.Element }> = ({ children }) => {
-  const [user, loading] = useAuthState(auth);
+// const ProtectedRoute: React.FC<{ children: JSX.Element }> = ({ children }) => {
+//   const [user, loading] = useAuthState(auth);
   
-  if (loading) return <p>Loading...</p>;
-  return user ? children : <Navigate to="/login" />;
-};
+//   if (loading) return <p>Loading...</p>;
+//   return user ? children : <Navigate to="/login" />;
+// };
 
 const AppRoutes: React.FC = () => {
   return (
