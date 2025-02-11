@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-const API_BASE_URL = "http://localhost:3000/api/stocks";
+const API_BASE_URL = process.env.BACKEND_PORT+"api/stocks";
 
 // Define response types
 type StockDataPoint = {
