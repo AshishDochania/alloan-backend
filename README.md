@@ -97,7 +97,11 @@ Eg.
 
 ## Running services
 ### Instructions to run the UI
-_enter details here!_
+- for the backend and frontend install the necessary dependecies.
+- after that for backend do a npm start
+- for frontend do a npm run start
+- For login phone number you can use +1 555-555-5555 and 123456 as the OTP.
+- After this you can sellect a stock and it will display the available choises.
 
 ### Add a demonstration video 
 _make a demonstration video showcasing frontend not longer than 2-3min, just explain what you have done!_
